@@ -9,10 +9,6 @@ from alpha101 import add_artificial_variables
 client = Client()
 warnings.simplefilter(action='ignore')   
 
-def get_pair_tickers(symbol='USDT'):
-    exchange_info = client.get_exchange_info()['symbols']
-    symbols = [s['symbol'] for s in exchange_info]
-    return [x for x in symbols if x.endswith(symbol)]
 
 #adds TA to price dataframe from yfinance
 def add_classic_indicators(df):

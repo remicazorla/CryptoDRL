@@ -3,9 +3,10 @@ import numpy as np
 
 
 ohlcv = ['open', 'high', 'low', 'close', 'volume']
-   
+
 def rank(df):
     return df.rank(pct=True)
+
 
 def scale(df):
     return df.div(df.abs().sum(), axis=0)
