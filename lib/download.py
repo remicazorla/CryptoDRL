@@ -44,3 +44,6 @@ def update_data(symbols):
     for symbol in symbols:
             df = update_data_symbol(symbol)
             save_data_pickle(df, symbol)
+
+def testImport():
+    print("test")
