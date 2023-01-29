@@ -6,8 +6,9 @@ import lib.timerLib as timeL
 
 if __name__ == '__main__': 
     start = time.time()
-    symbols = get_pair_tickers()[:10]
 
     update_data_features(symbols=get_pair_tickers())
     # update_data_features_symbol('BTCUSDT')
-    print(f'MAIN time for process : {(time.time()-start):.6f}')
+    timetab = timeL.get_time_from_ms(timeL.diff(start))
+    print(f'MAIN time for process : {timetab[2]}h:{timetab[1]}m:{timetab[0]}s')
+

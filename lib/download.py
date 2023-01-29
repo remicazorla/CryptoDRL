@@ -112,7 +112,8 @@ def update_data_features(symbols = get_symbol()):
                 f.result()
                 if cmpt % 10 == 0 and TIMER_DL:
                     timediff = timeL.get_time_from_ms(timeL.diff(start))
-                    print(f"\n \t###   {cmpt} : {timediff[2]}h:{timediff[1]}m:{timediff[0]}s ###\t\n")
+                    timeNeeded = timeL.get_time_needed(start, cmpt, len(symbols))
+                    print(f"\n \t###   {cmpt} / {len(symbols)}  |  {timediff[2]}h:{timediff[1]}m:{timediff[0]}s  | {timeNeeded[2]}h:{timeNeeded[1]}m:{timeNeeded[0]}s  ###\t\n")
             except Exception as e:
                 print(f"Update Symbol : {symbol} Failed : {e}")
             cmpt+=1
