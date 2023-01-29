@@ -1,5 +1,5 @@
 /__pychache__/
 /.ipynb_checkpoints/
 .gitattributes
-/usdt_data/
-/usdt_data_features/
+data/usdt_data/**
+data/usdt_data_features/**
