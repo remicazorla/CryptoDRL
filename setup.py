@@ -7,7 +7,7 @@ PATH_SYMBOL = "data/symbols.csv"
 PATH_BAD_SYMBOL = "data/badSymbols.csv"
 
 #DEBUG FLAG FOR DL
-DEBUG_DL = False
+DEBUG_DL = True
 TIMER_DL = True
 
 #Numver of value needed for update indicator
