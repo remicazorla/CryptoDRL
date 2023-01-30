@@ -61,11 +61,12 @@ def save_symbol(symbols = get_symbol()):
 
         with open(PATH_SYMBOL, "a", newline="\n") as f:
             writer = csv.writer(f)
-            if isinstance(symbols, str) and symbols not in get_symbol():
-                 writer.writerow([symbols])
+            if isinstance(symbols, str):
+                if not symbols in get_bad_symbol():
+                    writer.writerow([symbols])
             else:
                 for sym in symbols:
-                    if sym not in get_symbol():
+                    if not sym in get_symbol():
                         writer.writerow([sym])
     except:
         print("Impossible d'enregistrer les symboles")
@@ -77,11 +78,12 @@ def save_bad_symbol(symbols):
 
         with open(PATH_BAD_SYMBOL, "a", newline="\n") as f:
             writer = csv.writer(f)
-            if isinstance(symbols, str) and symbols not in get_bad_symbol():
-                 writer.writerow([symbols])
+            if isinstance(symbols, str):
+                if not symbols in get_bad_symbol():
+                    writer.writerow([symbols])
             else:
                 for sym in symbols:
-                    if sym not in get_bad_symbol():
+                    if not sym in get_bad_symbol():
                         writer.writerow([sym])
     except:
         print("Impossible d'enregistrer les mauvais symboles")
@@ -176,7 +178,7 @@ def update_data(symbols = get_symbol()):
 #try to save df in PATH_DATA and delete duplicate value, return false if df is useless
 def save_data_pickle(df, symbol):
     if isinstance(df, pd.DataFrame):
-        if(date.today() - timedelta(days=1) <= df.index[-1] and df.shape[0] > NBR_VALUE_FEATURE):
+        if(date.today() - timedelta(days=2) <= df.index[-1] and df.shape[0] > NBR_VALUE_FEATURE):
             try:
                 df = df[~df.index.duplicated(keep='last')]
                 df.to_pickle(f'{PATH_DATA}/{symbol}.pickle')
