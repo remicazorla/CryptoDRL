@@ -27,7 +27,7 @@ def get_symbol(sort_binance = True):
             reader = csv.reader(f)
             for row in reader:
                 symbols.append(row[0])
-        return symbols
+        return list(set(symbols))
     except:
         folder_path = "data/usdt_data_features"
         files = os.listdir(folder_path)
@@ -35,7 +35,7 @@ def get_symbol(sort_binance = True):
         if(sort_binance):
             return [ticker for ticker in get_pair_tickers() if ticker in file_names]
         else:
-            return file_names
+            return list(set(file_names))
 
 def get_bad_symbol(sort_binance = True):
     try:
@@ -44,7 +44,7 @@ def get_bad_symbol(sort_binance = True):
             reader = csv.reader(f)
             for row in reader:
                 symbols.append(row[0])
-        return symbols
+        return list(set(symbols))
     except:
         folder_path = "data/usdt_data_features"
         files = os.listdir(folder_path)
@@ -52,7 +52,7 @@ def get_bad_symbol(sort_binance = True):
         if(sort_binance):
             return [ticker for ticker in get_pair_tickers() if not ticker in file_names]
         else:
-            return file_names
+            return list(set(file_names))
 
 def save_symbol(symbols = get_symbol()):
     try:
@@ -162,7 +162,7 @@ def update_data_features_symbol(symbol):
                 # concatenation des anciennes et nouvelles données
                 df = pd.concat([df_features,df_data2],axis=0)
 
-                save_data_features_pickle(df,symbol)
+                # save_data_features_pickle(df,symbol)
             else:
                 df = get_data_features(symbol)
             
