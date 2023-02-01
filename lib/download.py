@@ -107,7 +107,7 @@ def update_data_features(symbols = get_symbol()):
     cmpt = 1
     with concurrent.futures.ProcessPoolExecutor() as executor:
         results = [executor.submit(update_data_features_symbol, symbol) for symbol in symbols]
-
+        
         for f in concurrent.futures.as_completed(results):
             symbol = symbols[results.index(f)]
             try:
@@ -162,7 +162,7 @@ def update_data_features_symbol(symbol):
                 # concatenation des anciennes et nouvelles données
                 df = pd.concat([df_features,df_data2],axis=0)
 
-                # save_data_features_pickle(df,symbol)
+                save_data_features_pickle(df,symbol)
             else:
                 df = get_data_features(symbol)
             
@@ -203,8 +203,11 @@ def save_data_features_pickle(df, symbol):
         df.to_pickle(f'{PATH_FEATURE}/{symbol}.pickle')
         if(DEBUG_DL):
             print(f"Enregistrement feature pour {symbol} d'une taille {df.shape}")
+            return get_data_features(symbol)
+        return True
     except:
         print(f"ERROR {symbol} ouverture fichier feature")
+        return False
 
 #get data from database if you have it, or download and save it
 def get_data(symbol):
@@ -225,7 +228,12 @@ def get_data(symbol):
 #get data from database if you have it, or try to create it and save it
 def get_data_features(symbol):
     try:
-        df = pd.read_pickle(f'{PATH_FEATURE}/{symbol}.pickle').astype(float)
+        df = pd.read_pickle(f'{PATH_FEATURE}/{symbol}.pickle')
+        try:
+            df = df.astype(float)
+        except:
+            print(f"Impossible de convertir en float {symbol}")
+            
         return df
     except:
         try:
