@@ -1,0 +1,1373 @@
+1675799231572	geckodriver	INFO	Listening on 127.0.0.1:63392
+1675799707016	geckodriver	INFO	Listening on 127.0.0.1:63864
+1675799811038	geckodriver	INFO	Listening on 127.0.0.1:63948
+1675799856979	geckodriver	INFO	Listening on 127.0.0.1:63987
+1675799859993	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63988" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileeFBKTn"
+1675799860456	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675799860462	Marionette	INFO	Listening on port 63996
+Read port: 63996
+WebDriver BiDi listening on ws://127.0.0.1:63988
+1675799861510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileeFBKTn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63988/devtools/browser/ad3f8338-cac1-46a8-8513-e4ecd1a137a1
+1675799862534	Marionette	INFO	Stopped listening on port 63996
+Dynamically enable window occlusion 1
+[Parent 48056, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
+Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1675800071683	geckodriver	INFO	Listening on 127.0.0.1:64178
+1675800074723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64179" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofiletVF5E9"
+1675800075154	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675800075160	Marionette	INFO	Listening on port 64189
+Read port: 64189
+WebDriver BiDi listening on ws://127.0.0.1:64179
+1675800075325	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofiletVF5E9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64179/devtools/browser/f0804f8b-8f67-4778-97ea-0784f4e7a256
+1675800239037	Marionette	INFO	Stopped listening on port 64189
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+"--remote-debugging-port" "64262" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofilefgsDkY"
+1675800146285	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675800146292	Marionette	INFO	Listening on port 64270
+Read port: 64270
+WebDriver BiDi listening on ws://127.0.0.1:64262
+1675800146440	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofilefgsDkY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64262/devtools/browser/e0cc0bae-3740-47d1-af48-c5aa75ff2653
+1675800239751	Marionette	INFO	Stopped listening on port 64270
+Dynamically enable window occlusion 1
+1675800270596	geckodriver	INFO	Listening on 127.0.0.1:64399
+1675800273637	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64400" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileRPFkjA"
+1675800274043	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675800274048	Marionette	INFO	Listening on port 64408
+Read port: 64408
+WebDriver BiDi listening on ws://127.0.0.1:64400
+1675800274206	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileRPFkjA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64400/devtools/browser/4a4b3c7f-00ff-4299-9c64-2c2f8362b03b
+1675803054860	Marionette	INFO	Stopped listening on port 64408
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63318" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofile7hGFhT"
+1675802182579	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675802182585	Marionette	INFO	Listening on port 63326
+Read port: 63326
+WebDriver BiDi listening on ws://127.0.0.1:63318
+1675802182750	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofile7hGFhT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63318/devtools/browser/164d48de-1b56-4c8c-912c-71d2f16cd236
+1675803055843	Marionette	INFO	Stopped listening on port 63326
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54546" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileYy2LNw"
+1675802626700	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675802626705	Marionette	INFO	Listening on port 54554
+Read port: 54554
+WebDriver BiDi listening on ws://127.0.0.1:54546
+1675802626852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileYy2LNw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54546/devtools/browser/e3638719-efa0-49be-b4d0-52fefb551e78
+1675803056753	Marionette	INFO	Stopped listening on port 54554
+Dynamically enable window occlusion 1
+[Parent 26868, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+\\AppData\\Local\\Temp\\rust_mozprofileyBaexi"
+1675802650920	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675802650925	Marionette	INFO	Listening on port 54623
+Read port: 54623
+WebDriver BiDi listening on ws://127.0.0.1:54614
+1675802651096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileyBaexi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54614/devtools/browser/161f1d94-5509-4e20-aed5-96f99f4bfa28
+1675803058119	Marionette	INFO	Stopped listening on port 54623
+Dynamically enable window occlusion 1
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError1675803083663	Marionette	INFO	Stopped listening on port 50715
+Dynamically enable window occlusion 1
+oad attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+1675803176842	geckodriver	INFO	Listening on 127.0.0.1:50999
+1675803179872	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51000" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileiHJAmu"
+1675803180365	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675803180371	Marionette	INFO	Listening on port 51011
+Read port: 51011
+WebDriver BiDi listening on ws://127.0.0.1:51000
+1675803180532	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileiHJAmu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51000/devtools/browser/19c9f009-d04a-483a-8d80-5f58157d33a5
+1675844011599	geckodriver	INFO	Listening on 127.0.0.1:50857
+1675844014648	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50858" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileDrCpEw"
+1675844015096	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675844015102	Marionette	INFO	Listening on port 50865
+Read port: 50865
+WebDriver BiDi listening on ws://127.0.0.1:50858
+1675844015283	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileDrCpEw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50858/devtools/browser/745e0d93-5f33-4acc-af65-0d3aaecea0d5
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1675848087387	Marionette	INFO	Stopped listening on port 50865
+Dynamically enable window occlusion 1
+ow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileN8wFxI"
+1675844174897	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675844174903	Marionette	INFO	Listening on port 50936
+Read port: 50936
+WebDriver BiDi listening on ws://127.0.0.1:50929
+1675844175059	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileN8wFxI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50929/devtools/browser/609f0450-2aa1-4ee9-9f99-673952ac7caf
+1675848088120	Marionette	INFO	Stopped listening on port 50936
+Dynamically enable window occlusion 1
+[Parent 34896, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+\\AppData\\Local\\Temp\\rust_mozprofileLc0yXr"
+1675845365282	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675845365287	Marionette	INFO	Listening on port 50758
+Read port: 50758
+WebDriver BiDi listening on ws://127.0.0.1:50750
+1675845365438	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileLc0yXr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50750/devtools/browser/8a3b4af3-2262-4527-9364-a50ad1e31000
+1675848088842	Marionette	INFO	Stopped listening on port 50758
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51985" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofilem5ugbK"
+1675846674746	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675846674752	Marionette	INFO	Listening on port 51994
+Read port: 51994
+WebDriver BiDi listening on ws://127.0.0.1:51985
+1675846674919	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofilem5ugbK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51985/devtools/browser/346b01dc-7bba-4d9a-bd8e-3f05d825e8ec
+1675848089502	Marionette	INFO	Stopped listening on port 51994
+Dynamically enable window occlusion 1
+[Parent 27404, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675854202691	geckodriver	INFO	Listening on 127.0.0.1:50697
+1675854205737	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50698" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileCS9dbQ"
+1675854206220	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675854206226	Marionette	INFO	Listening on port 50707
+Read port: 50707
+WebDriver BiDi listening on ws://127.0.0.1:50698
+1675854206388	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileCS9dbQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50698/devtools/browser/be277878-8236-44ca-afb1-0afef2730556
+[Parent 37996, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675854265889	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+[Parent 37996, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675854413861	geckodriver	INFO	Listening on 127.0.0.1:51415
+1675854416899	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51416" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileE4PMuT"
+1675854417368	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675854417377	Marionette	INFO	Listening on port 51425
+Read port: 51425
+WebDriver BiDi listening on ws://127.0.0.1:51416
+1675854417585	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileE4PMuT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51416/devtools/browser/848b5663-35ff-48d9-b2ff-defd635ce8de
+1675854442923	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[Parent 26152, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 26152, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675876198008	Marionette	INFO	Stopped listening on port 51425
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52084" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofilerHMrel"
+1675854695136	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675854695142	Marionette	INFO	Listening on port 52092
+Read port: 52092
+WebDriver BiDi listening on ws://127.0.0.1:52084
+1675854695299	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofilerHMrel\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52084/devtools/browser/29351707-f29f-4f9b-83ca-3ba4f97be63d
+1675876198838	Marionette	INFO	Stopped listening on port 52092
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52962" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofile4TsKYL"
+1675855269839	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675855269845	Marionette	INFO	Listening on port 52971
+Read port: 52971
+WebDriver BiDi listening on ws://127.0.0.1:52962
+1675855270001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofile4TsKYL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52962/devtools/browser/e9b80137-22eb-4f74-9d19-083d9f29692b
+1675876200010	Marionette	INFO	Stopped listening on port 52971
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53127" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileKLwgxM"
+1675855473086	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675855473093	Marionette	INFO	Listening on port 53136
+Read port: 53136
+WebDriver BiDi listening on ws://127.0.0.1:53127
+1675855473256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileKLwgxM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53127/devtools/browser/525ea554-e583-48d3-b14a-cc0a26a5cb6b
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+1675876200864	Marionette	INFO	Stopped listening on port 53136
+Dynamically enable window occlusion 1
+calhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileZXYH0o"
+1675855489675	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675855489684	Marionette	INFO	Listening on port 53181
+Read port: 53181
+WebDriver BiDi listening on ws://127.0.0.1:53172
+1675855489846	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileZXYH0o\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53172/devtools/browser/05cfff00-a198-4793-894c-358d8eec11c5
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1675876201957	Marionette	INFO	Stopped listening on port 53181
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54913" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofilevdSgci"
+1675857442171	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675857442176	Marionette	INFO	Listening on port 54922
+Read port: 54922
+WebDriver BiDi listening on ws://127.0.0.1:54913
+1675857442327	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofilevdSgci\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54913/devtools/browser/d436c5c5-784b-44b8-b820-4549ee5a799e
+[Parent 53988, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675876194884	Marionette	INFO	Stopped listening on port 54922
+Dynamically enable window occlusion 1
+1675885273511	geckodriver	INFO	Listening on 127.0.0.1:63279
+1675885276521	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63280" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileG1sxm1"
+1675885277618	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675885277625	Marionette	INFO	Listening on port 63328
+Read port: 63328
+WebDriver BiDi listening on ws://127.0.0.1:63280
+1675885277792	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileG1sxm1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63280/devtools/browser/7ed6a36f-ad36-4239-89a0-4f53f55b4748
+1675885581368	Marionette	INFO	Stopped listening on port 63328
+Dynamically enable window occlusion 1
+[Parent 63408, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+\\AppData\\Local\\Temp\\rust_mozprofileFUS6Be"
+1675885452750	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675885452757	Marionette	INFO	Listening on port 65449
+Read port: 65449
+WebDriver BiDi listening on ws://127.0.0.1:65407
+1675885452976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileFUS6Be\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65407/devtools/browser/69235ef4-aeba-419c-9d6c-ca8013d5f889
+[Parent 63636, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 63636, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675885547956	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1675886221015	Marionette	INFO	Stopped listening on port 65449
+Dynamically enable window occlusion 1
+ow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileLz0oKs"
+1675885647879	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675885647884	Marionette	INFO	Listening on port 51398
+Read port: 51398
+WebDriver BiDi listening on ws://127.0.0.1:51336
+1675885648034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileLz0oKs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51336/devtools/browser/d86bc99b-8af7-4ab7-9d3d-4985368ec8bf
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1675886221910	Marionette	INFO	Stopped listening on port 51398
+Dynamically enable window occlusion 1
+ow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofile99kDGY"
+1675885663013	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675885663018	Marionette	INFO	Listening on port 51576
+Read port: 51576
+WebDriver BiDi listening on ws://127.0.0.1:51539
+1675885663164	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofile99kDGY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51539/devtools/browser/33541868-dc66-4f6e-a28f-c52f2c5967e3
+[Parent 63556, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675885768239	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1675886550838	Marionette	INFO	Stopped listening on port 51576
+Dynamically enable window occlusion 1
+ow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileeOLmyB"
+1675886178644	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675886178650	Marionette	INFO	Listening on port 56929
+Read port: 56929
+WebDriver BiDi listening on ws://127.0.0.1:56889
+1675886178830	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileeOLmyB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56889/devtools/browser/f20cfc0a-2c5c-4f95-904d-d0064943045e
+1675886551791	Marionette	INFO	Stopped listening on port 56929
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57301" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofilezc4PgF"
+1675886216057	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675886216063	Marionette	INFO	Listening on port 57337
+Read port: 57337
+WebDriver BiDi listening on ws://127.0.0.1:57301
+1675886216232	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofilezc4PgF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57301/devtools/browser/84ac7e52-6e34-4da4-9dd7-79e01afc9b14
+1675886552520	Marionette	INFO	Stopped listening on port 57337
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58342" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofilefDn1Kq"
+1675886315846	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675886315852	Marionette	INFO	Listening on port 58383
+WebDriver BiDi listening on ws://127.0.0.1:58342
+Read port: 58383
+1675886316122	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofilefDn1Kq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58342/devtools/browser/f656b803-2a43-44ea-b9fc-5f654a95e37b
+[Parent 66620, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675886553201	Marionette	INFO	Stopped listening on port 58383
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60335" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileHfCzV3"
+1675886471899	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675886471906	Marionette	INFO	Listening on port 60378
+Read port: 60378
+WebDriver BiDi listening on ws://127.0.0.1:60335
+1675886472085	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileHfCzV3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60335/devtools/browser/f71bcd8c-82c9-4a1d-9bd0-dfc289c4ff45
+[Parent 64596, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675886610597	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1675886610604	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+[Parent 64596, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1675886915801	Marionette	INFO	Stopped listening on port 60378
+Dynamically enable window occlusion 1
+ow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileDdoQzy"
+1675886761894	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675886761900	Marionette	INFO	Listening on port 63754
+Read port: 63754
+WebDriver BiDi listening on ws://127.0.0.1:63712
+1675886762083	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileDdoQzy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63712/devtools/browser/de2297de-ace2-4791-83c6-cc2fa3202b52
+1675886916426	Marionette	INFO	Stopped listening on port 63754
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64045" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileP3dnxS"
+1675886791106	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675886791112	Marionette	INFO	Listening on port 64082
+Read port: 64082
+WebDriver BiDi listening on ws://127.0.0.1:64045
+1675886791294	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileP3dnxS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64045/devtools/browser/30d1cf0e-295d-4be6-869e-4bd113f670ab
+1675886917315	Marionette	INFO	Stopped listening on port 64082
+Dynamically enable window occlusion 1
+[Parent 65992, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+\\AppData\\Local\\Temp\\rust_mozprofile2GgKZZ"
+1675886816478	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675886816483	Marionette	INFO	Listening on port 64388
+Read port: 64388
+WebDriver BiDi listening on ws://127.0.0.1:64346
+1675886816650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofile2GgKZZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64346/devtools/browser/53863d83-d464-49e7-a351-37a77ce9f4b5
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1675888651807	Marionette	INFO	Stopped listening on port 64388
+Dynamically enable window occlusion 1
+ow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofiles3R3rg"
+1675886912922	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675886912930	Marionette	INFO	Listening on port 65346
+Read port: 65346
+WebDriver BiDi listening on ws://127.0.0.1:65307
+1675886913163	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofiles3R3rg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65307/devtools/browser/e0eedd8a-4694-47b9-92c1-96d2ae4515a3
+1675888649988	Marionette	INFO	Stopped listening on port 65346
+Dynamically enable window occlusion 1
+[Parent 37600, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+\\AppData\\Local\\Temp\\rust_mozprofile1r8ASx"
+1675887017012	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675887017019	Marionette	INFO	Listening on port 52265
+Read port: 52265
+WebDriver BiDi listening on ws://127.0.0.1:52225
+1675887017175	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofile1r8ASx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52225/devtools/browser/57d6342c-a765-4f2f-bc7f-82e0469ea80b
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1675888650702	Marionette	INFO	Stopped listening on port 52265
+Dynamically enable window occlusion 1
+ow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileS7XZy6"
+1675887354456	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675887354462	Marionette	INFO	Listening on port 55482
+Read port: 55482
+WebDriver BiDi listening on ws://127.0.0.1:55445
+1675887354708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileS7XZy6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55445/devtools/browser/3c54df86-6a73-4fb9-a76e-8dd8d6c9f154
+1675888652565	Marionette	INFO	Stopped listening on port 55482
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57684" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileEovsYJ"
+1675887588018	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675887588024	Marionette	INFO	Listening on port 57723
+Read port: 57723
+WebDriver BiDi listening on ws://127.0.0.1:57684
+1675887588180	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileEovsYJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57684/devtools/browser/572b11f3-276c-4b9d-8c56-ecd566842cc1
+1675888653249	Marionette	INFO	Stopped listening on port 57723
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+"--remote-debugging-port" "58988" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileVrD9OU"
+1675887714422	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675887714430	Marionette	INFO	Listening on port 59026
+Read port: 59026
+WebDriver BiDi listening on ws://127.0.0.1:58988
+1675887714582	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileVrD9OU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58988/devtools/browser/22c3b9e6-0c17-4de8-8bb6-e29db626fcdd
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1675888654172	Marionette	INFO	Stopped listening on port 59026
+Dynamically enable window occlusion 1
+[Parent 67952, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+cclusion 0
+1675887750908	Marionette	INFO	Listening on port 59405
+Read port: 59405
+WebDriver BiDi listening on ws://127.0.0.1:59370
+1675887751069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileePZOhl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59370/devtools/browser/2ae1588e-9d46-4a53-9f64-ed23024038d7
+1675888654734	Marionette	INFO	Stopped listening on port 59405
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59664" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileSBkTUU"
+1675887777801	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675887777808	Marionette	INFO	Listening on port 59704
+Read port: 59704
+WebDriver BiDi listening on ws://127.0.0.1:59664
+1675887777998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileSBkTUU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59664/devtools/browser/afa3ad4a-755c-4063-bc0a-ce09cda586e4
+1675888655472	Marionette	INFO	Stopped listening on port 59704
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59956" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofilejYYwms"
+1675887803490	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675887803497	Marionette	INFO	Listening on port 59993
+Read port: 59993
+WebDriver BiDi listening on ws://127.0.0.1:59956
+1675887803664	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofilejYYwms\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59956/devtools/browser/284fe1fa-6bbf-414f-8113-e98dee1d77ba
+console.error: "Unable to find target with innerWindowId:6442450951"
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1675890877969	Marionette	INFO	Stopped listening on port 59993
+Dynamically enable window occlusion 1
+ow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofiletjCTkl"
+1675888812840	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675888812846	Marionette	INFO	Listening on port 56921
+Read port: 56921
+WebDriver BiDi listening on ws://127.0.0.1:56878
+1675888813016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofiletjCTkl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56878/devtools/browser/057b41fc-e847-4048-a090-9dad31c9278d
+JavaScript warning: https://pagead2.googlesyndication.com/bg/1ltCRSOx5k-1I0D0UILHPXNozEC50ZuHf8HEjBLxTFM.js line 2 > eval line 1852 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+1675890878596	Marionette	INFO	Stopped listening on port 56921
+Dynamically enable window occlusion 1
+[Parent 69588, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+Local\\Temp\\rust_mozprofileDaG786\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57120/devtools/browser/0eb42863-f9b2-4b85-842a-37766d5725ca
+1675890879185	Marionette	INFO	Stopped listening on port 57158
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63764" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileEfwYhi"
+1675889614534	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675889614540	Marionette	INFO	Listening on port 63800
+Read port: 63800
+WebDriver BiDi listening on ws://127.0.0.1:63764
+1675889614759	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileEfwYhi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63764/devtools/browser/250d2c41-4d4a-40fb-be5e-4ff25962a08e
+1675890879791	Marionette	INFO	Stopped listening on port 63800
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53139" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileiAdE3a"
+1675890321104	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675890321110	Marionette	INFO	Listening on port 53176
+Read port: 53176
+WebDriver BiDi listening on ws://127.0.0.1:53139
+1675890321276	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileiAdE3a\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53139/devtools/browser/a8f8b1f9-69d5-4663-b044-ffe0ff42dfcd
+1675890880511	Marionette	INFO	Stopped listening on port 53176
+Dynamically enable window occlusion 1
+[Parent 70600, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1675890959098	geckodriver	INFO	Listening on 127.0.0.1:58482
+1675890962146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58483" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileO89VOM"
+1675890962631	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675890962638	Marionette	INFO	Listening on port 58518
+Read port: 58518
+WebDriver BiDi listening on ws://127.0.0.1:58483
+1675890962801	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileO89VOM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58483/devtools/browser/9e131ab5-0831-41ac-9248-eb02d098c2bc
+1675892672540	Marionette	INFO	Stopped listening on port 58518
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50955" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofilemaxu7f"
+1675891221108	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675891221114	Marionette	INFO	Listening on port 50964
+Read port: 50964
+WebDriver BiDi listening on ws://127.0.0.1:50955
+1675891221266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofilemaxu7f\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50955/devtools/browser/00b3540a-3003-44bd-b0e6-e5dc8f0108fc
+1675892673256	Marionette	INFO	Stopped listening on port 50964
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51171" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileQE2Wlz"
+1675891534327	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675891534333	Marionette	INFO	Listening on port 51180
+Read port: 51180
+WebDriver BiDi listening on ws://127.0.0.1:51171
+1675891534492	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileQE2Wlz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51171/devtools/browser/3e191310-aa00-44ee-a59b-6beb5f52825a
+1675892673861	Marionette	INFO	Stopped listening on port 51180
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51271" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileNzV2M0"
+1675891644905	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675891644911	Marionette	INFO	Listening on port 51281
+Read port: 51281
+WebDriver BiDi listening on ws://127.0.0.1:51271
+1675891645073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileNzV2M0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51271/devtools/browser/f787c866-1f66-4899-b1f9-db4ba240bb5d
+1675892674427	Marionette	INFO	Stopped listening on port 51281
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51327" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofile5H2UPb"
+1675891656776	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675891656783	Marionette	INFO	Listening on port 51334
+Read port: 51334
+WebDriver BiDi listening on ws://127.0.0.1:51327
+1675891656941	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofile5H2UPb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51327/devtools/browser/4f765149-5240-4cc5-bf91-43866becbf64
+JavaScript error: resource:///modules/TabsList.jsm, line 527: TypeError: this.dropIndicator is null
+1675892675052	Marionette	INFO	Stopped listening on port 51334
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51435" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofile80t4n6"
+1675891803601	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675891803607	Marionette	INFO	Listening on port 51443
+Read port: 51443
+WebDriver BiDi listening on ws://127.0.0.1:51435
+1675891803766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofile80t4n6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51435/devtools/browser/45ea72fa-b8aa-4ee0-b002-05cc8c93785f
+1675892675625	Marionette	INFO	Stopped listening on port 51443
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51499" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileI7Ay4b"
+1675891851851	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675891851858	Marionette	INFO	Listening on port 51508
+Read port: 51508
+WebDriver BiDi listening on ws://127.0.0.1:51499
+1675891852038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\remik\\AppData\\Local\\Temp\\rust_mozprofileI7Ay4b\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51499/devtools/browser/281206c8-b510-4546-825b-051b66bdbabe
+1675892677353	Marionette	INFO	Stopped listening on port 51508
+Dynamically enable window occlusion 1
+[Parent 61160, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
