@@ -5,6 +5,9 @@ from ta import add_all_ta_features
 import warnings
 from binance.client import Client
 from Indicator import alpha101 as alpha
+from prophet import Prophet
+
+
 warnings.filterwarnings("ignore")
 def get_all_indicators(df):
     try:
@@ -61,8 +64,10 @@ def generate_lagged_variables(df):
 def get_custom_features(df):
     #alpha101
     df = alpha.add_artificial_variables(df)
+
+
     #prophet, arima, VAE, NLP, orderbook, fft, tsfresh, diffdiffdiff, GARCH, EWMA....
-    
+
     #data_FT = df[['Date', 'GS']]
     #close_fft = np.fft.fft(np.asarray(data_FT['GS'].tolist()))
     #fft_df = pd.DataFrame({'fft':close_fft})
@@ -73,3 +78,41 @@ def get_custom_features(df):
         #fft_list_m10= np.copy(fft_list); fft_list_m10[num_:-num_]=0
         #df['Fourier' + num_] = fft_list_m10
     return df
+
+def add_prophet_indicator(df, column, rolling = False, window = 0):
+    if rolling:
+        df[f'MA{window}'] =  df['close'].rolling(window=window).mean().copy().reset_index(drop=True)
+        return df
+    else:
+        pass
+
+def get_prophet_features(data,prophet_param = []):
+    df = pd.DataFrame()
+    #creation du tableaux df passer a proohet
+    df['ds']= data.index.copy()
+    df['y']= data['close'].copy().reset_index(drop=True)
+
+    model_multivariate = Prophet(yearly_seasonality=True, weekly_seasonality=True, daily_seasonality=True)
+
+    for param in prophet_param:
+        df[param] = data[param].copy().reset_index(drop=True)
+        model_multivariate.add_regressor(param, standardize=False)
+
+    df.dropna(inplace=True)
+
+
+    model_multivariate.fit(df)
+    forecast = model_multivariate.make_future_dataframe(periods=24, freq='H')
+    forecast = forecast.join(df.reset_index(drop=True)[[x for x in df.columns.tolist() if x != 'ds']]).ffill()
+    forecast = model_multivariate.predict(forecast)
+
+    forecast.index = forecast['ds']
+    last_date = data.index[-1]
+    forecast = forecast.loc[forecast.index <= last_date]
+    forecast.drop(columns='ds',inplace=True)
+    df = pd.concat([data,forecast], axis=1)
+    return df
+
+def get_features_importance(df):
+    #BORUTA
+    pass

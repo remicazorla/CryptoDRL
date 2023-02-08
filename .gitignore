@@ -3,3 +3,6 @@
 .gitattributes
 data/usdt_data/**/*.pickle
 data/usdt_data_features/**/*.pickle
+*.pyc
+*.pyc
+*.pyc
