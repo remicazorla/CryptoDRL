@@ -3,6 +3,7 @@ from datetime import date, timedelta
 from lib import indicators as indi 
 from binance.client import Client
 from lib import timerLib as timeL
+from tqdm import tqdm
 import concurrent.futures
 import pandas as pd
 import time 
@@ -244,6 +245,21 @@ def get_data_features(symbol):
             print(f"Impossible de créer features pour : {symbol}")
 
     return False
+
+
+def load_all_closing_prices():
+    closing_prices_df = pd.DataFrame()
+    pickle_files = [file for file in os.listdir(PATH_DATA) if file.endswith('.pickle')]
+
+    for file in tqdm(pickle_files):
+        try:
+            symbol = file[:-7]  # Remove the '.pickle' extension
+            df = pd.read_pickle(f'{PATH_DATA}/{file}').astype(float)
+            closing_prices_df[symbol] = df['close'].rename(symbol)
+        except Exception as e:
+            print(f"Failed to load data for {symbol}: {str(e)}")
+    
+    return closing_prices_df
 
 
 def testImport():

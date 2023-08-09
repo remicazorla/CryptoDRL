@@ -1,0 +1,9 @@
+30j to 60j avec  30freq a quasi rien changer mais 2 fois plus long
+
+convertir les rentabilités en sortino glissant 5
+
+plutot diviser les predictions par la volatilité 5j et investir seulement si ratio > 2
+
+SI JE PREDIS SUR 4H, je vends au point le plus haut prédit des 4h
+prévoir un stop loss systématique aussi a -2 ou x% du prix d'entree
+systeme de risque systématique turbulence index pr exit
